@@ -20,7 +20,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         <engine name="cordova-ios" version=">=5.0.0"/>
     </engines>
 
-    <dependency id="cordova-plugin-firebase-analytics" version="~4.3.0"/>
+    <dependency id="cordova-plugin-firebase-analytics" url="https://github.com/Otard95/cordova-plugin-firebase-analytics.git"/>
 
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
